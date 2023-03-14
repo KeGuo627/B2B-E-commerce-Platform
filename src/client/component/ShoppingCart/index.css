@@ -1,0 +1,80 @@
+.shoppingcart-container {
+  height: 290px;
+  overflow-y: scroll;
+  position: relative;
+}
+.coupon-container {
+  padding-top: 10px;
+}
+.coupon-container h4 {
+  color: black;
+  padding-top: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  left: 4%;
+  position: relative;
+}
+.shoppingcart-input {
+  width: 75%;
+  position: relative;
+  left: 4%;
+}
+.shoppingcart-button1 {
+  border: none;
+  background-color: mediumblue;
+  color: white;
+  border-radius: 2px;
+  width: 65px;
+  height: 31px;
+  position: relative;
+  left: 8%;
+  top: -1px;
+}
+.shoppingcart-price1 {
+  padding: 10px;
+}
+.shoppingcart-price2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 4%;
+}
+.shoppingcart-price2 label {
+  color: black;
+  font-weight: 600;
+}
+.shoppingcart-label1 {
+  position: absolute;
+  right: 10%;
+}
+.shoppingcart-label2 {
+  position: absolute;
+  right: 10%;
+}
+.shoppingcart-label3 {
+  position: absolute;
+  right: 10%;
+}
+.shoppingcart-label4 {
+  position: absolute;
+  right: 10%;
+}
+.shoppingcart-buttoncontainer {
+  padding: 20px;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 4%;
+}
+.shoppingcart-button {
+  border-radius: 4px;
+  background-color: mediumblue;
+  border: none;
+  color: white;
+  height: 38px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 500;
+}

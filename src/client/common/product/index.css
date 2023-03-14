@@ -1,0 +1,140 @@
+body {
+  background-color: whitesmoke;
+}
+.productinfo-container {
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.productinfo-title {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 300px;
+  padding-top: 20px;
+}
+.productinfo-header {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+}
+.productinfo-form {
+  display: relative;
+  margin-top: 5px;
+  width: 500px;
+  height: 650px;
+  padding: 15px 15px 35px 35px !important;
+  border-radius: 2px;
+  background-color: white;
+  border-color: black;
+}
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
+  padding-bottom: 10px;
+  display: block;
+}
+.content3,
+.content4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+input {
+  color: black;
+  padding-left: 5px;
+  font-size: 17px;
+}
+.content-label {
+  font-size: large;
+  color: black;
+  font-weight: 500;
+}
+.content-input1 {
+  width: 95%;
+  height: 40px;
+}
+textarea {
+  height: 70px !important;
+  border-radius: 2px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+
+.content-input2 {
+  width: 210px;
+  height: 40px;
+}
+.content-dropdown {
+  width: 210px;
+  height: 40px;
+}
+.content-input3 {
+  width: 150px;
+  height: 40px;
+}
+.content-input4 {
+  width: 270px;
+  height: 40px;
+}
+.content4-3 {
+  position: absolute;
+  top: 58%;
+  left: 58%;
+}
+.content4-3-button {
+  background-color: mediumblue;
+  border-radius: 2px;
+  border: 0;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  height: 30px;
+}
+.content6-button {
+  background-color: mediumblue;
+  border-radius: 4px;
+  border: 0;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+}
+.content5 {
+  border: dotted 2px black;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 180px;
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.content5-i {
+  font-size: 40px;
+  position: absolute;
+  top: 600px;
+}
+
+.content5-preview {
+  font-size: 18px;
+  color: black;
+  padding-top: 30px;
+}
+@media all and (max-width: 800px) {
+  .content4-3 {
+    position: absolute;
+    top: 48%;
+    left: 68%;
+  }
+}

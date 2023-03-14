@@ -1,0 +1,12 @@
+.emptycart-paragraph {
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 100px;
+}
+@media all and (max-width: 800px) {
+  .emptycart-paragraph {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+}

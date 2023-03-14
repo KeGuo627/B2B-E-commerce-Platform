@@ -1,0 +1,184 @@
+.body {
+  padding: 10px;
+  position: relative;
+}
+.modalContainer .title h3 {
+  display: inline-blck;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.usename .password .submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.usename .password {
+  height: 92.5px;
+}
+label {
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+  display: block;
+  text-align: left;
+  padding-bottom: 8px;
+}
+.password label {
+  padding-top: 12px;
+}
+.password .input {
+  padding-bottom: 10px;
+}
+.username-input {
+  display: block;
+  width: 440px;
+  height: 45px;
+  font-size: 20px;
+  justify-content: center;
+  padding-left: 1rem;
+  border-radius: 2px;
+}
+.password-input {
+  display: block;
+  width: 440px;
+  height: 45px;
+  font-size: 20px;
+  justify-content: center;
+  padding-left: 1rem;
+  border-radius: 2px;
+}
+.password input[type="password"] {
+  font-family: Verdana;
+  letter-spacing: 0.125rem;
+}
+.password .show {
+  position: absolute;
+  top: 52.5%;
+  right: 5%;
+  color: black;
+  opacity: 0.5;
+  font-size: 15px;
+}
+.username-invalid {
+  border: 1px solid red !important;
+  display: block;
+  width: 440px;
+  height: 45px;
+  font-size: 20px;
+  justify-content: center;
+  padding-left: 1rem;
+  border-radius: 2px;
+}
+.password-invalid {
+  border: 1px solid red;
+  display: block;
+  width: 440px;
+  height: 43px;
+  font-size: 20px;
+  justify-content: center;
+  padding-left: 1rem;
+  border-radius: 2px;
+}
+.input-feedback {
+  display: block;
+  font-size: 11px;
+  color: red;
+  margin-top: -1px;
+  text-align: right;
+  margin-bottom: -1px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  padding-top: 25px;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  height: 48px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background-color: mediumblue;
+  cursor: pointer;
+  color: #fff;
+  background-size: 200%;
+  transition: 0.5s;
+}
+.submit-btn:hover {
+  background-color: blueviolet;
+  transition: all 0.5s ease-in-out;
+}
+
+.leftlink {
+  float: left;
+  font-size: 15px;
+  color: rgb(169, 167, 167);
+  position: absolute;
+  top: 87%;
+}
+.rightlink {
+  float: right;
+  font-size: 15px;
+  position: absolute;
+  top: 87%;
+  left: 70%;
+}
+@media only screen and (max-width: 1000px) {
+  .username-input {
+    display: block;
+    width: 230px;
+    height: 45px;
+    font-size: 20px;
+    justify-content: center;
+    padding-left: 1rem;
+    border-radius: 2px;
+  }
+  .password-input {
+    display: block;
+    width: 230px;
+    height: 45px;
+    font-size: 20px;
+    justify-content: center;
+    padding-left: 1rem;
+    border-radius: 2px;
+  }
+  .username-invalid {
+    border: 1px solid red !important;
+    display: block;
+    width: 230px;
+    height: 45px;
+    font-size: 20px;
+    justify-content: center;
+    padding-left: 1rem;
+    border-radius: 2px;
+  }
+  .password-invalid {
+    border: 1px solid red;
+    display: block;
+    width: 230px;
+    height: 43px;
+    font-size: 20px;
+    justify-content: center;
+    padding-left: 1rem;
+    border-radius: 2px;
+  }
+  .leftlink {
+    display: block;
+    text-align: center;
+    font-size: 13px !important;
+  }
+  .rightlink {
+    display: block;
+    text-align: center;
+    padding-right: 25%;
+    font-size: 13px !important;
+  }
+}

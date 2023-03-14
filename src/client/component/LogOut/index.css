@@ -1,0 +1,18 @@
+.logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+.logout-button {
+  border: none;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: mediumblue;
+  position: absolute;
+  margin-top: 120px;
+}

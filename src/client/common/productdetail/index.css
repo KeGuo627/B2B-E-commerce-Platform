@@ -1,0 +1,115 @@
+.productdetail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 250px 100px;
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 50px;
+  height: 600px;
+  width: 1700px;
+  position: fixed;
+}
+.productdetail-header {
+  position: absolute;
+  top: 8%;
+  left: 12%;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.productdetail-content {
+  display: flex;
+  margin: 20px 30px;
+  padding-left: 20px;
+  background-color: white;
+  height: 400px;
+  width: 1300px;
+}
+.productdetail-photo {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.productdetail-info {
+  display: flex;
+  margin-left: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 80px;
+}
+h5 {
+  font-size: 20px;
+  color: grey;
+  position: absolute;
+}
+h2 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.name {
+  position: absolute;
+  top: 25%;
+}
+.price {
+  position: absolute;
+  top: 33%;
+}
+p {
+  width: 500px;
+  font-size: 18px;
+  position: absolute;
+  top: 42%;
+  color: grey;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  padding-bottom: 10px;
+}
+.productdetail-buttons {
+  margin-top: 240px;
+  padding-top: 20px;
+  width: 260px;
+  height: 50px;
+}
+.productdetail-button1,
+.productdetail-button2,
+.productdetail-button2-review {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.productdetail-button1 {
+  background-color: mediumblue;
+  color: white;
+  font-size: 16px;
+  border: none !important;
+}
+.productdetail-button2 {
+  font-size: 16px;
+  margin-left: 30px;
+  color: black;
+}
+.productdetail-button2-review {
+  font-size: 16px;
+  margin-left: 20px;
+  color: black;
+  position: absolute;
+  top: 63%;
+  left: 55%;
+}
+.ShowQuantity {
+  display: flex;
+  color: red;
+  background-color: #f08080;
+  border-radius: 5px;
+  font-size: 13px;
+  border: 1px solid #f08080;
+  position: absolute;
+  height: 35px;
+  width: 100px;
+  top: 34%;
+  left: 60%;
+  text-align: center;
+  padding-top: 7px;
+  padding-left: 7px;
+}

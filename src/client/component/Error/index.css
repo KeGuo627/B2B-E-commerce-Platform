@@ -1,0 +1,33 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  flex-direction: column;
+}
+.error-icon {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+.error-h2 {
+  font-weight: 600;
+}
+.error-button {
+  margin-top: 30px;
+  border: none;
+  width: 230px;
+  height: 40px;
+  background-color: mediumblue;
+  color: white;
+  border-radius: 3px;
+  font-size: 18px;
+}
+@media all and (max-width: 800px) {
+  .error-container {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+  }
+}

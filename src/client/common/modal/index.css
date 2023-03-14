@@ -1,0 +1,18 @@
+.no-border {
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+.modal-title2 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-top: 15px;
+}

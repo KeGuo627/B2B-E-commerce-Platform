@@ -1,0 +1,163 @@
+.homepage-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 110px;
+  padding-right: 5%;
+  width: 100%;
+  height: 100%;
+}
+.homepage-header {
+  padding-right: 60%;
+  margin-left: 5%;
+  height: 100%;
+  width: 100%;
+}
+.title-label {
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+}
+.homepage-dropdown {
+  width: 15em;
+  padding-right: 10%;
+  padding-left: 5%;
+}
+.homepage-dropdownlist {
+  outline: 0;
+  background: white;
+  color: black;
+  cursor: pointer;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 0;
+}
+.homepage-button-container {
+  padding-left: -5%;
+  width: 100%;
+}
+.homepage-button {
+  background-color: purple;
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 0.25em;
+  width: 8em;
+}
+.homepage-content {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  width: 92%;
+  height: 65%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.grid-item {
+  color: black;
+  margin: 4px;
+  width: 18%;
+  height: 48%;
+  opacity: 1;
+}
+.homepage-page {
+  position: absolute;
+  top: 750px;
+  right: 70px;
+  width: 250px;
+  height: 40px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.page-container {
+  background-color: whitesmoke;
+  padding: 2px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  position: relative;
+  gap: 0;
+}
+.page-item {
+  color: black;
+  border: 1px solid grey;
+  opacity: 0.6;
+  background-color: white;
+  margin: 1px;
+  flex: 0 1 calc(20%-8px);
+  width: 10%;
+  height: 95%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-item:focus {
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+}
+@media all and (max-width: 800px) {
+  .page-container {
+    display: none;
+  }
+  .homepage-content {
+    display: block;
+    overflow-y: scroll;
+    width: 90%;
+  }
+  .grid-item {
+    position: relative;
+    width: 50%;
+    left: 24%;
+    top: 10px;
+  }
+  .homepage-header {
+    position: absolute;
+    left: 36%;
+    top: 12%;
+    height: 30px;
+    width: 30px;
+  }
+  .homepage-dropdown {
+    position: absolute;
+    top: 16%;
+    left: 15%;
+    width: 70%;
+  }
+  .homepage-button-container {
+    position: absolute;
+    top: 16%;
+    padding-left: 60%;
+  }
+  .homepage-content {
+    position: absolute;
+    top: 21%;
+    left: 5%;
+    height: 58%;
+    width: 90%;
+  }
+  .homepage-page {
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    width: 35%;
+    height: 4%;
+  }
+}

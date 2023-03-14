@@ -1,0 +1,22 @@
+.minusButton {
+  border: none;
+  background-color: mediumblue;
+  color: white;
+  font-weight: bolder;
+  width: 30%;
+}
+.numberButton {
+  border: none;
+  background-color: mediumblue;
+  color: white;
+  font-weight: bolder;
+  margin-left: 4px;
+  width: 30%;
+}
+.plusButton {
+  border: none;
+  background-color: mediumblue;
+  color: white;
+  font-weight: bolder;
+  margin-left: 4px;
+}

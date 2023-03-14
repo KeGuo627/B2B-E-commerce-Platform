@@ -1,0 +1,43 @@
+.h2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.HomeButton-container {
+  padding: 30px;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 4%;
+}
+.Homebutton {
+  border-radius: 4px;
+  background-color: mediumblue;
+  border: none;
+  color: white;
+  height: 38px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media all and (max-width: 800px) {
+  .h2-container {
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkout-paragraph {
+    font-size: 18px;
+  }
+
+  .HomeButton-container {
+    position: relative;
+    margin-top: 40px;
+  }
+}

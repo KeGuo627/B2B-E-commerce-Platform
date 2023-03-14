@@ -1,0 +1,20 @@
+.container {
+  display: block;
+  height: 200px !important;
+}
+.icon {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+.confirm {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  text-align: center;
+}

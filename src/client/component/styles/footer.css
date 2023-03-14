@@ -1,0 +1,123 @@
+.box {
+  display: block;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px !important;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: -20px;
+}
+
+.footer-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  gap: 10px 5px;
+  align-items: center;
+  margin: 0 10px;
+  padding: 0 5px;
+  width: 940;
+}
+.footer-col1 {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: center;
+  margin-left: -100px;
+}
+.footer-col2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 45%;
+}
+.footer-col3 {
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  justify-content: center;
+  position: absolute;
+  margin-left: 80%;
+  margin-bottom: 30px;
+}
+.footer-copyright {
+  display: flex;
+  align-items: flex-start;
+  font-size: 15px;
+  color: #fff;
+}
+.footer-i1 {
+  color: #fff;
+  font-size: 15px;
+  margin-top: -10px;
+  margin-left: 19px;
+  text-align: center;
+}
+.footer-col3-p1 {
+  color: #fff;
+  font-size: 15px;
+  position: absolute;
+  padding-right: 300px;
+}
+.footer-col3-p2 {
+  color: #fff;
+  font-size: 15px;
+  position: absolute;
+  padding-right: 100px;
+}
+.footer-col3-p3 {
+  color: #fff;
+  font-size: 15px;
+  position: absolute;
+  padding-right: 0px;
+}
+@media all and (max-width: 800px) {
+  .box {
+    width: 100% !important;
+    margin-bottom: 0;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .footer-row {
+    display: flex;
+    align-items: center;
+  }
+  .footer-col3 {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin-left: 10px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+  }
+  .footer-col1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+  }
+  .footer-col2 {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    position: absolute;
+    margin-left: 40%;
+    margin-bottom: -30px;
+  }
+  .footer-copyright,
+  .footer-i1,
+  .footer-p1 {
+    font-size: 12px;
+  }
+}
